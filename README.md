@@ -1,7 +1,11 @@
 ```diff
--!  🚨                                          WARNING                                          🚨  !-
-This is a fork that removes all the integration_tests and docs folders from their individual packages
-in an attempt to reduce the installed file size (which is approx 50 MB in total).
+-!  🚨                                       WARNING                                       🚨  !-
+This is a fork that removes all the integration_tests and docs folders from their individual
+packages in an attempt to reduce the installed file size (which is ~ 50 MB in total). Also
+notable is that the dbt_expectations package (~5 MB) which is used just once in the original
+dbt_google_ads_source package is removed from this fork.
+
+The installed file size of this fork is ~ 21 MB.
 ```
 
 [![Apache License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
