@@ -1,3 +1,9 @@
+```diff
+-!  🚨                                          WARNING                                          🚨  !-
+This is a fork that removes all the integration_tests and docs folders from their individual packages
+in an attempt to reduce the installed file size (which is approx 50 MB in total).
+```
+
 [![Apache License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # Ad Reporting
 

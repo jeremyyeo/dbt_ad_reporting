@@ -1,24 +1,48 @@
 packages:
-- package: fivetran/pinterest
-  version: [">=0.5.0", "<0.6.0"]
+  - git: "https://github.com/jeremyyeo/dbt_pinterest.git"
+    revision: "v0.5.0-lite"
 
-- package: fivetran/microsoft_ads
-  version: [">=0.4.0", "<0.5.0"]
+  - git: "https://github.com/jeremyyeo/dbt_microsoft_ads.git"
+    revision: "v0.4.0-lite"
 
-- package: fivetran/linkedin
-  version: [">=0.4.0", "<0.5.0"]
+  - git: "https://github.com/jeremyyeo/dbt_linkedin.git"
+    revision: "v0.4.0-lite"
 
-- package: fivetran/google_ads
-  version: [">=0.6.0", "<0.7.0"]
+  - git: "https://github.com/jeremyyeo/dbt_google_ads.git"
+    revision: "v0.6.0-lite"
 
-- package: fivetran/tiktok_ads
-  version: [">=0.1.0", "<0.2.0"]
+  - git: "https://github.com/jeremyyeo/dbt_tiktok_ads.git"
+    revision: "v0.1.1-lite"
 
-- package: fivetran/twitter_ads
-  version: [">=0.4.0", "<0.5.0"]
+  - git: "https://github.com/jeremyyeo/dbt_twitter.git"
+    revision: "v0.4.0-lite"
 
-- package: fivetran/facebook_ads
-  version: [">=0.4.0", "<0.5.0"]
+  - git: "https://github.com/jeremyyeo/dbt_facebook_ads.git"
+    revision: "v0.4.1-lite"
 
-- package: fivetran/snapchat_ads
-  version: [">=0.3.0", "<0.4.0"]
+  - git: "https://github.com/jeremyyeo/dbt_snapchat_ads.git"
+    revision: "v0.3.0-lite"
+
+  # - package: fivetran/pinterest
+  #   version: [">=0.5.0", "<0.6.0"]
+
+  # - package: fivetran/microsoft_ads
+  #   version: [">=0.4.0", "<0.5.0"]
+
+  # - package: fivetran/linkedin
+  #   version: [">=0.4.0", "<0.5.0"]
+
+  # - package: fivetran/google_ads
+  #   version: [">=0.6.0", "<0.7.0"]
+
+  # - package: fivetran/tiktok_ads
+  #   version: [">=0.1.0", "<0.2.0"]
+
+  # - package: fivetran/twitter_ads
+  #   version: [">=0.4.0", "<0.5.0"]
+
+  # - package: fivetran/facebook_ads
+  #   version: [">=0.4.0", "<0.5.0"]
+
+  # - package: fivetran/snapchat_ads
+  #   version: [">=0.3.0", "<0.4.0"]
